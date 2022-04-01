@@ -14,7 +14,7 @@ class ShowBookList extends Component {
 
   componentDidMount() {
     axios
-      .get('http://localhost:8082/api/books')
+      .get('/api/books')
       .then(res => {
         this.setState({
           books: res.data
@@ -68,4 +68,5 @@ class ShowBookList extends Component {
   }
 }
 
+export default ShowBookList;
 export default ShowBookList;
