@@ -69,4 +69,3 @@ class ShowBookList extends Component {
 }
 
 export default ShowBookList;
-export default ShowBookList;
